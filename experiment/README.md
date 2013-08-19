@@ -1,4 +1,0 @@
-experiment
-==========
-
-My new experiment
