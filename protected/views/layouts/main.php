@@ -23,7 +23,10 @@
 <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo">
+			<?php //echo CHtml::encode(Yii::app()->name); ?>
+			What is better?
+		</div>
 	</div><!-- header -->
 
 	<div id="mainmenu">
@@ -48,9 +51,7 @@
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
+		Zuova.com - New day, new debate, new arguments, new resolutions...
 	</div><!-- footer -->
 
 </div><!-- page -->
